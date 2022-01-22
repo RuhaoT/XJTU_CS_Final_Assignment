@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS Final Assignment:Index</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/zh-light.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+  </head>
+  
+  <body>
+  <header>
+    <div class="row">
+      <div class="col header-content"> <a class="header-content-title" href="index.html"><img src="assets/images/Logo.png"></a>
+        <nav class="header-nav-bar">
+          <ul>
+            <li><a class="header-nav-buttons" href="index.html">首页</a></li>
+            <li><a class="header-nav-buttons" href="class-graph.html">课程关系图</a></li>
+            <li><a class="header-nav-buttons" href="major-rsrc.html">专业资源</a></li>
+            <li><a class="header-nav-buttons" href="udrstndg.html">专业认知</a></li>
+            <li><a class="header-nav-buttons" href="acad-plan.html">学业规划</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="col index-carousel"> 
+      <script src="assets/js/jquery.min.js"></script> 
+      <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="row intro-carousel-background-1 intro-background-setting">
+            <div class="intro-background-deco">
+              <h2>计算机001班 2203113234 田濡豪</h2>
+              <h1 style="animate__animated animate__fadeInUp">计算机科学技术导论课程大作业</h1>
+              <h3>请继续向下阅读或左右拖动</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item">
+            <div class="row intro-carousel-background-2">
+              <div class="intro-background-deco">
+                <h2></h2>
+                <h1>计算机专业课程交互式关系图</h1>
+                <a class="strd-button-blue" href="class-graph.html">立即查看</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="row intro-carousel-background-3">
+              <div class="intro-background-deco">
+                <h2></h2>
+                <h1>计算机专业相关资源</h1>
+                <a class="strd-button-blue" href="major-rsrc.html">立即查看</a>
+              </div>
+            </div>
+        </div>
+        <div class="item">
+          <div class="row intro-carousel-background-4">
+              <div class="intro-background-deco">
+                <h2></h2>
+                <h1 style="animate__animated animate__fadeInUp">计算机专业<br>专业认知</h1>
+                <a class="strd-button-blue" href="udrstndg.html">立即查看</a>
+              </div>
+            </div>
+        </div>
+        <div class="item">
+          <div class="row intro-carousel-background-5">
+              <div class="intro-background-deco">
+                <h2></h2>
+                <h1>个人学业规划</h1>
+                <a class="strd-button-blue" href="acad-plan.html">立即查看</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                margin: 0,
+                nav: true,
+                loop: true,
+                lazyLoad: true,
+                items:1,
+                autoplay:true,
+              })
+            })
+          </script> 
+    </div>
+    <div class="row"> </div>
+    <div class="row intro-text">
+      <h4>欢迎！</h4>
+      <p>您好！我是计算机001班的田濡豪同学，很高兴您能阅读本作业。<br>
+        本作业使用HTML相关前端开发技术，以响应式网页呈现（这也就意味着，您在不同的界面大小访问时都将获得较好的阅读体验）。<br>
+        您可以通过下列卡片、顶部导航栏或本页轮播展示框访问作业的不同部分。<br>
+        如果您想返回首页（本页），随时点击导航栏中的“CS大作业”图标或在顶部导航栏中点击首页即可。</p>
+    </div>
+    <div class="row">
+      <div class="col class-graph-href-card animate__animated animate__fadeInUp">
+        <div class="col index-card-content">
+          <p class="card-content-title">计算机专业各学科<br>
+            交互式关系图</p>
+          <p class="card-content-intro"><br>
+            基于HTML与D3.js<br>
+            使用力导向图表现计算机专科课程的先行后续关系<br>
+            清晰可交互</p>
+        </div>
+        <div class="col index-card-href"><a class="index-card-buttons" href="class-graph.html">立即查看</a></div>
+      </div>
+      <div class="col major-rsrc-href-card">
+        <div class="col index-card-content">
+          <p class="card-content-title">计算机专业<br>
+            有关资料</p>
+          <p class="card-content-intro"><br>
+            包含电子版教科书、教程网站与我校资源三个方面<br>
+            对部分资源提供下载<br>
+            对所有资源提供链接</p>
+        </div>
+        <div class="col index-card-href"><a class="index-card-buttons" href="major-rsrc.html">立即查看</a></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col udrstnd-about-major-herf-card">
+        <div class="col index-card-content">
+          <p class="card-content-title">计算机专业<br>
+            专业认识</p>
+          <p class="card-content-intro"><br>
+            从计算机专业的两大不同方向出发<br>
+            介绍了计算机专业的不同方向和应用领域<br>
+            深入阐述了我对计算机专业的认识</p>
+        </div>
+        <div class="col index-card-href"><a class="index-card-buttons" href="udrstndg.html">立即查看</a></div>
+      </div>
+      <div class="col acad-plan-href-card">
+        <div class="col index-card-content">
+          <p class="card-content-title">个人学业规划</p>
+          <p class="card-content-intro"><br>
+            按照时间顺序<br>
+            从课程学习、科研经历、升学及日后学习三个方面<br>
+            阐述了我的个人学业规划及其背后的考量</p>
+        </div>
+        <div class="col index-card-href"><a class="index-card-buttons" href="acad-plan.html">立即查看</a></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col tail">
+        <div class="row">
+          <p class="tail-contact-info">联系方式：<br>
+            RuhaoT2020@stu.xjtu.edu.cn</p>
+          <hr>
+          <p class="tail-info">田濡豪&#8226;2203113234&#8226;计算机001班&#8226;电子与信息学部&#8226;西安交通大学&#8226;咸宁西路28号</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  </body>
+</html>

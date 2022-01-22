@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<HwTheme>
+    <title>Light Wings</title>
+    <title-cn>光之翼</title-cn>
+    <author>HarmonyOS</author>
+    <designer>HarmonyOS</designer>
+    <screen>WUXGA</screen>
+    <version>12.1.2</version>
+    <font>Default</font>
+    <font-cn>默认</font-cn>
+</HwTheme>
